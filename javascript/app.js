@@ -30,6 +30,12 @@ function shtoStudentin() {
         }
     };
 
-    console.log(studenti.emriKomplet());
-    studentat.push(studenti);
-}
+    console.log(emri.emriKomplet());
+    studentat.push(emri);
+    function shtoemrin() {
+        const emri = inputEmri.value;
+        const mbiemri = inputMbiemri.value
+        if (emri === "" || mbiemri === "") {
+            return;
+        }
+   };
