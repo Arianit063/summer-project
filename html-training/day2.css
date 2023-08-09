@@ -1,0 +1,12 @@
+li {
+    color: aqua;
+}
+
+li:nth-child(odd) {
+    color: lawngreen;
+}
+
+input[type="button"] {
+    color: white;
+    background-color: blue;
+}
